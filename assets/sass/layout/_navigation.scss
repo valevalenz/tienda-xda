@@ -1,0 +1,19 @@
+.navbar__bg-color{
+  background-color:$white !important;
+}
+
+.navbar__logo-color{
+  color: $white !important;
+  background-color: $smoky-black !important;
+  padding: 2%;
+}
+
+nav{
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.nav__sections{
+  display:flex !important;
+  justify-content: flex-end;
+}

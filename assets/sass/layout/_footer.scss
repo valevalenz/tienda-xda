@@ -1,0 +1,46 @@
+footer{
+  background-color: $smoky-black;
+  color:$white;
+  padding-top:7%;
+  padding-left:10%;
+  grid-column: 1/-1;
+  grid-row: 4/5;
+  height:300px;
+}
+
+.footer__newsletter-margin{
+ margin-bottom: 5%;
+}
+
+
+form{
+  position:absolute;
+}
+
+.footer__suscribe{
+  transform: rotate(90deg);
+  position:relative;
+  bottom:100%;
+  left:180%;
+  background-color: $white;
+  color: $smoky-black;
+}
+
+
+@media only screen and (min-width: 992px)  {
+
+  footer{
+
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+  }
+
+  .footer__suscribe{
+    transform: rotate(90deg);
+    position:relative;
+    bottom:100%;
+    left:250%;
+  }
+
+}
